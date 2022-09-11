@@ -1,0 +1,31 @@
+.container {
+    margin-top: 20px;
+}
+
+.spinner {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.card {
+    width: 220px;
+    margin-bottom: 20px;
+    height: 270px;
+}
+.card-cover {
+    position: relative;
+}
+
+.card-tag {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,59 @@
+#components-layout-demo-side .logo {
+  height: 50px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+
+.header{
+  background-color: white;
+}
+
+.header-text{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ff9c9f;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ff9c9f;
+  
+}
+
+.content-header{
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.ant-layout-sider-trigger {
+  background-color: #ff9c9f;
+  color: white;
+}
+.site-content {
+  padding: 40px;
+  margin-bottom: 50px;
+  width: 80%;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #FED2D4;
+  color: white
+}
+
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #ff9c9f;
+}
+
+.ant-menu-item:hover {
+  color: #ff9c9f !important;
+}
